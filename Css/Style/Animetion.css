@@ -1,0 +1,27 @@
+@import url(../main/index.css);
+
+@keyframes display-text-im {
+	25%,
+	100% {
+		display: none;
+	}
+}
+
+@keyframes fill-text {
+	10%,
+	100% {
+		width: 0px;
+	}
+
+	70%,
+	90% {
+		width: 100%;
+	}
+}
+
+@keyframes show-content {
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+}

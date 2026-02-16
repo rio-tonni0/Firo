@@ -1,0 +1,65 @@
+@import url(./index.css);
+
+.customers {
+	width: 100%;
+	min-height: 50vh;
+	position: relative;
+	padding: 40px;
+	margin-bottom: 80px;
+}
+
+.cust-con {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+.cus {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 50px;
+	position: relative;
+}
+
+.cus-head {
+	font-size: 2rem;
+	margin-bottom: 10%;
+}
+.cus-head img {
+	padding-right: 20px;
+}
+
+.cus-1 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 450px;
+	height: 200px;
+	padding: 30px;
+	border-radius: 150px;
+	border: 3px solid var(--black-color);
+}
+
+.cus-2 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 450px;
+	height: 200px;
+	padding: 30px;
+	border-radius: 150px;
+	border: 3px solid var(--black-color);
+}
+
+.cus-1 span,
+.cus-2 span {
+	position: absolute;
+	font-size: 1.2rem;
+	top: 15%;
+	left: 25%;
+}

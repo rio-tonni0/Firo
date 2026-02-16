@@ -1,0 +1,115 @@
+@import url(./index.css);
+
+.contact {
+	overflow: hidden;
+	min-height: 100vh;
+	position: relative;
+	margin: 30px;
+}
+
+.bg {
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+.con-us {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.con-head {
+	position: absolute;
+	top: 10%;
+	font-size: 2rem;
+}
+
+.con-head img {
+	margin-right: 20px;
+}
+
+.inputs {
+	position: absolute;
+	top: 40%;
+	gap: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#name,
+#mail,
+#phone {
+	border: none;
+	width: 400px;
+	background-color: transparent;
+	border: 2px solid var(--or1-color);
+	border-radius: 25px;
+	padding: 10px 20px;
+	color: var(--black-color);
+	font-family: "Bricolage Grotesque", sans-serif;
+	font-weight: 600;
+	transition: 0.4s;
+}
+#name:hover,
+#mail:hover,
+#phone:hover {
+	transform: scale(1.1);
+	width: 450px;
+}
+
+#name:focus,
+#mail:focus,
+#phone:focus {
+	outline: none;
+}
+
+.message {
+	border: none;
+	width: 400px;
+	background-color: transparent;
+	border: 2px solid var(--or1-color);
+	border-radius: 25px;
+	padding: 10px 20px;
+	color: var(--black-color);
+	font-family: "Bricolage Grotesque", sans-serif;
+	font-weight: 600;
+	max-width: 405px;
+	max-height: 172px;
+	min-width: 405px;
+	min-height: 53px;
+	transition: 0.4s;
+}
+
+.message:focus{
+     outline: none;
+}
+.message:hover {
+     transform: scale(1.1);
+     width: 450px;
+}
+
+#send{
+     border: none;
+     width: 200px;
+     background-color: var(--or1-color);
+     border-radius: 25px;
+     padding: 10px 20px;
+     color: var(--white-color);
+     font-family: "Bricolage Grotesque", sans-serif;
+     font-weight: 600;
+     transition: 0.4s;
+}
+#send:hover{
+     transform: scale(1.1);
+     width: 220px;
+     cursor: pointer;
+     background-color: transparent;
+     border: 2px solid var(--or1-color);
+     color: var(--or1-color);
+}

@@ -1,0 +1,153 @@
+@import url(../main/index.css);
+
+/* =============== Nums =============== */
+
+.about::after {
+	content: "01";
+
+	position: absolute;
+	top: -65%;
+	right: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: var(--or1-color, red);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	z-index: 10;
+}
+
+.choose::after {
+	content: "02";
+
+	position: absolute;
+	top: -5%;
+	left: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: var(--or1-color, red);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	z-index: 10;
+}
+
+.gallery::after {
+	content: "03";
+
+	position: absolute;
+	top: -13%;
+	right: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: var(--or1-color, red);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	z-index: 10;
+}
+
+.customers::after {
+	content: "04";
+
+	position: absolute;
+	top: -13%;
+	left: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: var(--or1-color, red);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	z-index: 10;
+}
+
+.contact::after {
+	content: "05";
+
+	position: absolute;
+	top: 0;
+	right: 30px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: var(--or1-color, red);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	z-index: 10;
+}
+
+/* =============== others =============== */
+
+.home-con::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 20px;
+	width: 2px;
+	height: 110%;
+	background-color: rgb(0 0 0 / 50%);
+	z-index: -1;
+}
+
+.cus-1::after {
+	content: "";
+
+	position: absolute;
+	background-image: url(/images/client-1.png);
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: -20%;
+	left: 2%;
+	border-radius: 50%;
+}
+.cus-2::after {
+	content: "";
+
+	position: absolute;
+	background-image: url(/images/client-2.png);
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: -20%;
+	left: 2%;
+	border-radius: 50%;
+}
+
+.im::before {
+	content: attr(data-text);
+	position: absolute;
+	width: 0%;
+	border-right: 2px solid var(--or1-color);
+	color: var(--or1-color);
+	white-space: nowrap;
+	overflow: hidden;
+
+	animation: fill-text 4s linear infinite;
+}
