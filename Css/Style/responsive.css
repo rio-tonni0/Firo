@@ -4,6 +4,16 @@
 }
 
 @media screen and (max-width: 1024px) {
+	.cus-1::after {
+		width: 80px;
+		height: 80px;
+		top: -20%;
+	}
+	.cus-2::after {
+		width: 80px;
+		height: 80px;
+		top: -20%;
+	}
 	.home-con {
 		left: 5%;
 		width: 55%;
@@ -392,10 +402,31 @@
 		height: 45px;
 		font-size: 14px;
 	}
+	.customers::after {
+		width: 45px;
+		height: 45px;
+		font-size: 14px;
+	}
+
+	.contact::after {
+		width: 45px;
+		height: 45px;
+		font-size: 14px;
+	}
 
 	.customers {
 		padding: 20px;
 		margin-bottom: 40px;
+	}
+	.cus-1::after {
+		width: 80px;
+		height: 80px;
+		top: -10%;
+	}
+	.cus-2::after {
+		width: 80px;
+		height: 80px;
+		top: -10%;
 	}
 
 	.cus {
@@ -668,3 +699,14 @@
 		font-size: 0.8rem;
 	}
 }
+
+/* .cus-1::after {
+	width: 60px;
+	height: 60px;
+	top: 0%;
+}
+.cus-2::after {
+	width: 60px;
+	height: 60px;
+	top: 0%;
+} */
